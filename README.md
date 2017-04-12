@@ -1,1 +1,3 @@
 # HashTrendy
+
+Plik readme.
