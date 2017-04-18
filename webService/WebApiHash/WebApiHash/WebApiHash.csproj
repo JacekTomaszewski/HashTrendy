@@ -239,9 +239,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Hash\DeleteImei.cshtml" />
     <Content Include="Views\Hash\Create.cshtml" />
     <Content Include="Views\Hash\Index.cshtml" />
+    <Content Include="Views\Hash\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
