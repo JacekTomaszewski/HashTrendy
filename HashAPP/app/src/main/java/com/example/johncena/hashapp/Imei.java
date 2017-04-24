@@ -23,8 +23,7 @@ public class Imei extends Activity
 {
     private static final int PERMISSIONS_REQUEST_READ_PHONE_STATE = 999;
     private TelephonyManager mTelephonyManager;
-    String deviceId;
-    PushDeviceImei pushDeviceImei = new PushDeviceImei();
+    private String deviceId;
 
     public void onCreate(Bundle savedInstanceState)
     {
