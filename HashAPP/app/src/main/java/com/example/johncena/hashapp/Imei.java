@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
 import android.telephony.TelephonyManager;
-import android.view.View;
 import android.widget.TextView;
 
 import com.android.volley.Request;
@@ -16,8 +15,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
-import static com.example.johncena.hashapp.R.id.textView;
-
 /**
  * Created by JohnCena on 4/18/2017.
  */
@@ -25,10 +22,10 @@ import static com.example.johncena.hashapp.R.id.textView;
 public class Imei extends Activity
 {
     private static final int PERMISSIONS_REQUEST_READ_PHONE_STATE = 999;
-
     private TelephonyManager mTelephonyManager;
+    String deviceId;
+    PushDeviceImei pushDeviceImei = new PushDeviceImei();
 
-    TextView imei;
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
@@ -40,6 +37,8 @@ public class Imei extends Activity
                     PERMISSIONS_REQUEST_READ_PHONE_STATE);
         } else {
             getDeviceImei();
+            pushDeviceImei();
+
         }
     }
     public void onRequestPermissionsResult(int requestCode, String[] permissions,
@@ -53,14 +52,16 @@ public class Imei extends Activity
 
     private void getDeviceImei()
     {
-
         mTelephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-        imei = (TextView) findViewById(R.id.textView2);
-        imei.setText(mTelephonyManager.getDeviceId().toString());
+        deviceId = mTelephonyManager.getDeviceId().toString();
+    }
+
+    private void pushDeviceImei() {
+
 
         final TextView textView = (TextView) findViewById(R.id.textView);
 
-        String url ="http://projekthashtag.ddns.net:51577/hash/create?imei="+mTelephonyManager.getDeviceId().toString();
+        String url = "http://projekthashtag.ddns.net:51577/hash/create?imei=" + deviceId;
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
 
@@ -81,5 +82,4 @@ public class Imei extends Activity
 // Add the request to the RequestQueue.
         queue.add(stringRequest);
     }
-
 }
