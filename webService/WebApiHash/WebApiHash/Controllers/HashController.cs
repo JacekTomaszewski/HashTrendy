@@ -24,7 +24,8 @@ namespace WebApiHash.Controllers
         public ActionResult Create(String imei)
         {    
             ViewBag.imei = imei;
-            db.Database.ExecuteSqlCommand("INSERT INTO Devices (DeviceUniqueId) VALUES ('" + imei + "')", DeviceId);
+            //db.Database.ExecuteSqlCommand("INSERT INTO Devices (DeviceUniqueId) VALUES ('" + imei + "') ON DUPLICATE KEY UPDATE 'DeviceUniqueId' = 'DeviceUniqueId'", DeviceId);
+            db.Database.ExecuteSqlCommand("UPDATE Devices SET DeviceUniqueId='"+imei+"' WHERE DeviceUniqueId='"+imei+"' IF @@ROWCOUNT=0 INSERT INTO Devices (DeviceUniqueId) VALUES('"+imei+"')",DeviceId);
             return View();
         }
 
