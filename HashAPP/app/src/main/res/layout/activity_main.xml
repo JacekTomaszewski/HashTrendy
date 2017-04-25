@@ -11,7 +11,7 @@
     tools:context="com.example.johncena.hashapp.MainActivity">
 
     <TextView
-    android:id="@+id/textView1"
+    android:id="@+id/textViewTitleOfActivity"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_alignParentTop="true"
@@ -19,22 +19,20 @@
     android:layout_marginTop="50dp"
     android:textColor="#4169E1"
     android:textSize="18sp"
-    android:text="IMEI Number" />
+    android:text="Your Imei number is:" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewImei"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:textSize="15sp"
-        android:text="IMEI" />
+        android:textSize="15sp" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/textViewImei"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="68dp"
-        android:id="@+id/textView" />
+        android:id="@+id/textViewResult" />
 </RelativeLayout>
