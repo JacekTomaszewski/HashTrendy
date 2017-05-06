@@ -34,21 +34,22 @@ namespace WebApiHash.Controllers
 
         public ActionResult Twitterli()
         {
-            List<TwitterStatus> listTwitterStatusRet = new List<TwitterStatus>();
+            List<TwitterStatus> listTwitterStatus = new List<TwitterStatus>();
             var service = new TwitterService("O5YRKrovfS42vADDPv8NdC4ZS", "tDrCy3YypKhnIOBm0qgCipwGjoJVf7akHV6srkHnLHJm62WvMF");
             service.AuthenticateWith("859793491941093376-kqRIYWY9bWyS10ATfqAVdwk1ZaxloEJ", "hbOXipioFNcyOUyWbGdVAXvoVquETMl57AZUTcbMh3WRv");
-            var twitterSearchResult = service.Search(new SearchOptions { Q = "#cr7" });
+            var twitterSearchResult = service.Search(new SearchOptions { Q = "#cr7", Count = 20, Resulttype = TwitterSearchResultType.Recent });
 
             if (twitterSearchResult != null)
             {
-                listTwitterStatusRet = ((List<TwitterStatus>)twitterSearchResult.Statuses);
-                foreach (TwitterStatus objTwitterStatus in listTwitterStatusRet)
-                {
-                    objTwitterStatus.CreatedDate = objTwitterStatus.CreatedDate.AddHours(-4);
-                }
+                listTwitterStatus = ((List<TwitterStatus>)twitterSearchResult.Statuses);
             }
-            ViewData["MyList"] = listTwitterStatusRet[0].Text;
-            return View();
+            for(int i=0; i<listTwitterStatus.Count; i++)
+            { 
+            ViewData["MyList" + i +0] = listTwitterStatus[i].User.ProfileImageUrl;
+            ViewData["MyList"+ i + 1] = listTwitterStatus[i].User.Name;
+            ViewData["MyList"+i+2] = listTwitterStatus[i].Text;
+            }
+            return View(ViewData);
         }
         public ActionResult TwitterAuth()
         {
