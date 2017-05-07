@@ -7,6 +7,7 @@ namespace WebApiHash.Models
 {
     public class Device
     {
+        
         public int DeviceId { get; set; }
         public string DeviceUniqueId { get; set; }
         public virtual ICollection<Hashtag> Hashtags { get; set; }

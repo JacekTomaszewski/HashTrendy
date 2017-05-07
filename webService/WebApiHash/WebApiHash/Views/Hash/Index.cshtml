@@ -1,14 +1,10 @@
 ﻿@model IEnumerable<WebApiHash.Models.Device>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "TableImei";
 }
 
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+<br />
 <table class="table">
     <tr>
         <th>
@@ -28,8 +24,6 @@
             @Html.DisplayFor(modelItem => item.DeviceUniqueId)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.DeviceId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.DeviceId }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.DeviceId })
         </td>
     </tr>
