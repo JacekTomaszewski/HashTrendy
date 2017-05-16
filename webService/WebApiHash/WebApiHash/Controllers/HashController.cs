@@ -98,22 +98,11 @@ namespace WebApiHash.Controllers
 
         public ActionResult Create(String imei)
         {
-<<<<<<< HEAD
             Device device = new Device();
-=======
->>>>>>> refs/remotes/origin/KamilBranch
             ViewBag.imei = imei;
             device.DeviceUniqueId = imei;
             db.Devices.Add(device);
             db.SaveChanges();
-            
-
-            //db.Database.ExecuteSqlCommand("INSERT INTO Devices (DeviceUniqueId) VALUES ('" + imei + "') ON DUPLICATE KEY UPDATE 'DeviceUniqueId' = 'DeviceUniqueId'", DeviceId);
-<<<<<<< HEAD
-            //db.Database.ExecuteSqlCommand("UPDATE Devices SET DeviceUniqueId='"+imei+"' WHERE DeviceUniqueId='"+imei+"' IF @@ROWCOUNT=0 INSERT INTO Devices (DeviceUniqueId) VALUES('"+imei+"')",DeviceId);
-=======
-            db.Database.ExecuteSqlCommand("UPDATE Devices SET DeviceUniqueId='" + imei + "' WHERE DeviceUniqueId='" + imei + "' IF @@ROWCOUNT=0 INSERT INTO Devices (DeviceUniqueId) VALUES('" + imei + "')", DeviceId);
->>>>>>> refs/remotes/origin/KamilBranch
             return View();
         }
 
