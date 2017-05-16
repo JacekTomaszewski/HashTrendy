@@ -343,6 +343,7 @@ C:\Users\Damien\Documents\GitHub\HashTrendy\webService\WebApiHash\WebApiHash\bin
 C:\Users\Damien\Documents\GitHub\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csprojResolveAssemblyReference.cache
 C:\Users\Damien\Documents\GitHub\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.dll
 C:\Users\Damien\Documents\GitHub\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.pdb
+<<<<<<< HEAD
 E:\hash\api\webService\WebApiHash\WebApiHash\bin\roslyn\csc.exe
 E:\hash\api\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 E:\hash\api\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -415,3 +416,248 @@ E:\hash\api\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.pdb
 E:\hash\api\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.InitialCreate.resources
 E:\hash\api\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csproj.GenerateResource.Cache
 E:\hash\api\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.AddedUniqueColumnsAndImeiMaxLength.resources
+=======
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\csc.exe
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\System.Collections.Immutable.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\System.Reflection.Metadata.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\vbc.exe
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe.config
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\WebApiHash.dll.config
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\WebApiHash.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\WebApiHash.pdb
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Antlr3.Runtime.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\EntityFramework.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Web.Infrastructure.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Newtonsoft.Json.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Owin.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.Helpers.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.Mvc.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.Optimization.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.Razor.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\WebGrease.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.Helpers.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.Mvc.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.Optimization.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.Razor.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Antlr3.Runtime.pdb
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Newtonsoft.Json.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\EntityFramework.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csprojResolveAssemblyReference.cache
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.pdb
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Hammock.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Reactive.Core.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Reactive.Linq.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\TweetSharp.dll
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\Hammock.pdb
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Reactive.Core.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Reactive.Linq.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.xml
+D:\Programowanie\TEMP HASH\webService\WebApiHash\WebApiHash\bin\TweetSharp.pdb
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\csc.exe
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\System.Collections.Immutable.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\System.Reflection.Metadata.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\vbc.exe
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe.config
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\WebApiHash.dll.config
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\WebApiHash.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\WebApiHash.pdb
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Antlr3.Runtime.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\EntityFramework.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Hammock.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Web.Infrastructure.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Newtonsoft.Json.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Owin.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Reactive.Core.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Reactive.Linq.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.Helpers.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.Mvc.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.Optimization.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.Razor.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\TweetSharp.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\WebGrease.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Hammock.pdb
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Newtonsoft.Json.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Reactive.Core.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Reactive.Linq.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.Helpers.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.Mvc.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.Optimization.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.Razor.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\TweetSharp.pdb
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Antlr3.Runtime.pdb
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\EntityFramework.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csprojResolveAssemblyReference.cache
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.dll
+E:\Pobrane\HashTrendy-JacekBranch\HashTrendy-JacekBranch\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.pdb
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\csc.exe
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\System.Collections.Immutable.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\System.Reflection.Metadata.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\vbc.exe
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe.config
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\WebApiHash.dll.config
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\WebApiHash.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\WebApiHash.pdb
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Antlr3.Runtime.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\EntityFramework.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Hammock.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Web.Infrastructure.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Newtonsoft.Json.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Owin.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Core.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Linq.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Helpers.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Mvc.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Optimization.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Razor.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\TweetSharp.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\WebGrease.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Hammock.pdb
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Newtonsoft.Json.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Core.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Linq.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Helpers.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Mvc.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Optimization.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Razor.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\TweetSharp.pdb
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Antlr3.Runtime.pdb
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\EntityFramework.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csprojResolveAssemblyReference.cache
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.dll
+E:\ProjektSyneo\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.pdb
+>>>>>>> refs/remotes/origin/KamilBranch
