@@ -82,3 +82,171 @@ D:\TEMP HASH\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.Ad
 D:\TEMP HASH\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csproj.GenerateResource.Cache
 D:\TEMP HASH\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.dll
 D:\TEMP HASH\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.pdb
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\csc.exe
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\System.Collections.Immutable.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\System.Reflection.Metadata.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\vbc.exe
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe.config
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\WebApiHash.dll.config
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\WebApiHash.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\WebApiHash.pdb
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Antlr3.Runtime.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\EntityFramework.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Hammock.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Web.Infrastructure.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Newtonsoft.Json.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Owin.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Core.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Linq.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Helpers.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Mvc.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Optimization.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Razor.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\TweetSharp.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\WebGrease.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Hammock.pdb
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Newtonsoft.Json.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Core.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.Linq.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Helpers.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Mvc.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Optimization.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.Razor.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\TweetSharp.pdb
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Antlr3.Runtime.pdb
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\EntityFramework.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csprojResolveAssemblyReference.cache
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.InitialCreate.resources
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.AddedUniqueColumnsAndImeiMaxLength.resources
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csproj.GenerateResource.Cache
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.dll
+D:\GIT HASHTRENDY\HashTrendy\webService\WebApiHash\WebApiHash\obj\Debug\WebApiHash.pdb
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\csc.exe
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\System.Collections.Immutable.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\System.Reflection.Metadata.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\vbc.exe
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe
+D:\gitkamil\WebApiHash\WebApiHash\bin\roslyn\VBCSCompiler.exe.config
+D:\gitkamil\WebApiHash\WebApiHash\bin\WebApiHash.dll.config
+D:\gitkamil\WebApiHash\WebApiHash\bin\WebApiHash.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\WebApiHash.pdb
+D:\gitkamil\WebApiHash\WebApiHash\bin\Antlr3.Runtime.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\EntityFramework.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Hammock.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Web.Infrastructure.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Newtonsoft.Json.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Owin.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Reactive.Core.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Reactive.Linq.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.Helpers.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.Mvc.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.Optimization.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.Razor.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.WebPages.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\TweetSharp.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\WebGrease.dll
+D:\gitkamil\WebApiHash\WebApiHash\bin\Hammock.pdb
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Newtonsoft.Json.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Reactive.Core.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Reactive.Interfaces.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Reactive.Linq.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Reactive.PlatformServices.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.Helpers.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.Mvc.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.Optimization.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.Razor.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.WebPages.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.WebPages.Deployment.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\System.Web.WebPages.Razor.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\TweetSharp.pdb
+D:\gitkamil\WebApiHash\WebApiHash\bin\Antlr3.Runtime.pdb
+D:\gitkamil\WebApiHash\WebApiHash\bin\EntityFramework.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\EntityFramework.SqlServer.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Core.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Facebook.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Cookies.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.OAuth.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.xml
+D:\gitkamil\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\gitkamil\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csprojResolveAssemblyReference.cache
+D:\gitkamil\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.InitialCreate.resources
+D:\gitkamil\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.AddedUniqueColumnsAndImeiMaxLength.resources
+D:\gitkamil\WebApiHash\WebApiHash\obj\Debug\WebApiHash.csproj.GenerateResource.Cache
+D:\gitkamil\WebApiHash\WebApiHash\obj\Debug\WebApiHash.dll
+D:\gitkamil\WebApiHash\WebApiHash\obj\Debug\WebApiHash.pdb

@@ -299,6 +299,7 @@
     <Content Include="Views\Hash\Delete.cshtml" />
     <Content Include="Views\Hash\TwitterCallback.cshtml" />
     <Content Include="Views\Hash\Twitterli.cshtml" />
+    <Content Include="Views\Hash\TwitterTrends.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

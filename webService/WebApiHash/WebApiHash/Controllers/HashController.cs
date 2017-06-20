@@ -4,9 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -31,15 +33,49 @@ namespace WebApiHash.Controllers
 
             return View(db.Devices.ToList());
         }
-
+        public ActionResult TwitterTrends()
+        {
+            var auth = new SingleUserAuthorizer
+            {
+                CredentialStore = new SingleUserInMemoryCredentialStore
+                {
+                    ConsumerKey = "O5YRKrovfS42vADDPv8NdC4ZS",
+                    ConsumerSecret = "tDrCy3YypKhnIOBm0qgCipwGjoJVf7akHV6srkHnLHJm62WvMF",
+                    AccessToken = "859793491941093376-kqRIYWY9bWyS10ATfqAVdwk1ZaxloEJ",
+                    AccessTokenSecret = "hbOXipioFNcyOUyWbGdVAXvoVquETMl57AZUTcbMh3WRv"
+                }
+            };
+            List<String> listTwitterStatus = new List<String>();
+            TwitterContext twitterctx = new TwitterContext(auth);
+            var trends = (from trend in twitterctx.Trends
+                          where trend.Type == TrendType.Place
+                                && trend.WoeID == 23424923
+                                && trend.SearchUrl.Substring(28, 3).Equals("%23")
+                          select trend).ToList();
+            if (trends != null &&
+                trends.Any() &&
+                trends.First().Locations != null
+                )
+            {
+                ViewData["Lokacja"] ="Trendy wyszukiwane dla: "+trends.First().Locations.First().Name;
+                trends.ForEach(trnd => 
+                    listTwitterStatus.Add("Name: " + trnd.Name+"   Created at: "+ trnd.CreatedAt+ "   SearchUrl: " + trnd.SearchUrl));
+            }
+            for (int i = 0; i < listTwitterStatus.Count; i++)
+            {
+                ViewData["MyList" + i] = listTwitterStatus[i].ToString();
+                
+            }
+            return View(ViewData);
+        }
         public ActionResult Twitterli()
         {
             List<TwitterStatus> listTwitterStatus = new List<TwitterStatus>();
             var service = new TwitterService("O5YRKrovfS42vADDPv8NdC4ZS", "tDrCy3YypKhnIOBm0qgCipwGjoJVf7akHV6srkHnLHJm62WvMF");
             service.AuthenticateWith("859793491941093376-kqRIYWY9bWyS10ATfqAVdwk1ZaxloEJ", "hbOXipioFNcyOUyWbGdVAXvoVquETMl57AZUTcbMh3WRv");
             var twitterSearchResult = service.Search(new SearchOptions { Q = "#CR7", Count = 100, Resulttype = TwitterSearchResultType.Recent });
-
             if (twitterSearchResult != null)
+
             {
                 listTwitterStatus = ((List<TwitterStatus>)twitterSearchResult.Statuses);
             }
