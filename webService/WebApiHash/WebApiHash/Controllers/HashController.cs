@@ -49,7 +49,8 @@ namespace WebApiHash.Controllers
             TwitterContext twitterctx = new TwitterContext(auth);
             var trends = (from trend in twitterctx.Trends
                           where trend.Type == TrendType.Place
-                                && trend.WoeID == 23424923
+                                && trend.WoeID == 1
+                                // POLAND 23424923
                                 && trend.SearchUrl.Substring(28, 3).Equals("%23")
                           select trend).ToList();
             if (trends != null &&
