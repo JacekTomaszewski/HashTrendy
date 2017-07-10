@@ -1,18 +1,12 @@
-﻿using Hammock.Serialization;
-using LinqToTwitter;
+﻿using LinqToTwitter;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Data.Entity;
+using System.Data;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
-using System.Xml.Linq;
 using TweetSharp;
 using WebApiHash.Context;
 using WebApiHash.Models;
@@ -67,6 +61,25 @@ namespace WebApiHash.Controllers
                 ViewData["MyList" + i] = listTwitterStatus[i].ToString();
                 
             }
+            return View(ViewData);
+        }
+        public ActionResult GooglePlusJSONencode()
+        {
+            string result;
+            string GPquery = "%23trump";
+            string requestString = "https://www.googleapis.com/plus/v1/activities?" + GPquery+ "&key=AIzaSyBZJabrdIgDO8rsZ-GMvi_ZTrFsJCHfpwA";
+            WebRequest objWebRequest = WebRequest.Create(requestString);
+            WebResponse objWebResponse = objWebRequest.GetResponse();
+            Stream objWebStream = objWebResponse.GetResponseStream();
+            using (StreamReader objStreamReader = new StreamReader(objWebStream))
+            {
+               result = objStreamReader.ReadToEnd();
+            }
+            //jsonzgoogla j = new jsonzgoogla();
+            //string x = j.json;
+            
+            GooglePlusPost post = JsonConvert.DeserializeObject<GooglePlusPost>(result);
+            ViewData["Json1"] = post.items[0].@object.attachments[0].content;
             return View(ViewData);
         }
         public ActionResult Twitterli()
