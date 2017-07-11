@@ -10,6 +10,10 @@ namespace WebApiHash.Models
         public string url { get; set; }
     }
 
+    public class Image2
+    {
+        public string url { get; set; }
+    }
 
     public class Actor
     {
@@ -42,6 +46,7 @@ namespace WebApiHash.Models
         public string displayName { get; set; }
         public string content { get; set; }
         public string url { get; set; }
+        public Image2 image { get; set; }
     }
 
     public class Object

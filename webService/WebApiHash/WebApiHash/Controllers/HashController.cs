@@ -65,31 +65,42 @@ namespace WebApiHash.Controllers
         }
         public ActionResult GooglePlusJSONencode()
         {
-            /* string result;
-             string GPquery = "%23trump";
-             string requestString = "https://www.googleapis.com/plus/v1/activities?" + GPquery+ "&key=AIzaSyBZJabrdIgDO8rsZ-GMvi_ZTrFsJCHfpwA";
-             WebRequest objWebRequest = WebRequest.Create(requestString);
-             WebResponse objWebResponse = objWebRequest.GetResponse();
-             Stream objWebStream = objWebResponse.GetResponseStream();
-             using (StreamReader objStreamReader = new StreamReader(objWebStream))
-             {
-                result = objStreamReader.ReadToEnd();
-             }
-             //jsonzgoogla j = new jsonzgoogla();
-             //string x = j.json;
-             */
-
-            jsonzgoogla JsonZGoogla = new jsonzgoogla();
+            //string result;
+            //string GPquery = "%23trump";
+            //string requestString = "https://www.googleapis.com/plus/v1/activities?" + GPquery + "&key=AIzaSyBZJabrdIgDO8rsZ-GMvi_ZTrFsJCHfpwA";
+            //WebRequest objWebRequest = WebRequest.Create(requestString);
+            //WebResponse objWebResponse = objWebRequest.GetResponse();
+            //Stream objWebStream = objWebResponse.GetResponseStream();
+            //using (StreamReader objStreamReader = new StreamReader(objWebStream))
+            //{
+            //    result = objStreamReader.ReadToEnd();
+            //}
+            //jsonzgoogla j = new jsonzgoogla();
+            //string x = j.json;
 
 
-                GooglePlusPost post = JsonConvert.DeserializeObject<GooglePlusPost>(JsonZGoogla.json);
+            jsonzgoogla jsonZgoogla = new jsonzgoogla();
+
+            
+                GooglePlusPost post = JsonConvert.DeserializeObject<GooglePlusPost>(jsonZgoogla.json);
 
 
             ViewData["rozmiar"] = post.items.Count;
 
             for (int i = 0; i <= post.items.Count -1; i++)
             {
-                ViewData["Json" + i] = post.items[i].@object.attachments[0].content;
+                ViewData["Avatar" + i] = post.items[i].actor.image.url;
+                ViewData["Author" + i] = post.items[i].actor.displayName;
+                ViewData["Title" + i] = post.items[i].title;
+                if (!post.items[i].@object.attachments[0].content.Contains(".png"))
+                {
+                    if (!post.items[i].@object.attachments[0].content.Contains(".jpg"))
+                    {
+                        ViewData["Content" + i] = post.items[i].@object.attachments[0].content;
+                    }
+                }
+                if (post.items[i].@object.attachments[0].image.url != null)
+                    ViewData["Image" + i] = post.items[i].@object.attachments[0].image.url;
             }
             return View(ViewData);
         }
