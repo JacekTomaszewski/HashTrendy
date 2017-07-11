@@ -1,8 +1,16 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "GooglePlusJSONencode";
+    var rozmiar = @ViewData["rozmiar"];
+    int rozmiarInt = Convert.ToInt32(rozmiar);
 }
 
 <h2>GooglePlusJSONencode</h2>
 
-<h2>@ViewData["Json1"]</h2>
+@for (var i = 0; i < rozmiarInt -1; i++)
+{
+
+    <h2>@ViewData["Json" + i]</h2>
+    <br>
+}
+
+}

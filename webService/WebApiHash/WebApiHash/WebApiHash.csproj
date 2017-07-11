@@ -236,7 +236,6 @@
     <Compile Include="Models\GooglePlusPost.cs" />
     <Compile Include="Models\Hashtag.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\item.cs" />
     <Compile Include="Models\jsonzgoogla.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

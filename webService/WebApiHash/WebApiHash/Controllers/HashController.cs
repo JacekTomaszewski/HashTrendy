@@ -65,21 +65,32 @@ namespace WebApiHash.Controllers
         }
         public ActionResult GooglePlusJSONencode()
         {
-            string result;
-            string GPquery = "%23trump";
-            string requestString = "https://www.googleapis.com/plus/v1/activities?" + GPquery+ "&key=AIzaSyBZJabrdIgDO8rsZ-GMvi_ZTrFsJCHfpwA";
-            WebRequest objWebRequest = WebRequest.Create(requestString);
-            WebResponse objWebResponse = objWebRequest.GetResponse();
-            Stream objWebStream = objWebResponse.GetResponseStream();
-            using (StreamReader objStreamReader = new StreamReader(objWebStream))
+            /* string result;
+             string GPquery = "%23trump";
+             string requestString = "https://www.googleapis.com/plus/v1/activities?" + GPquery+ "&key=AIzaSyBZJabrdIgDO8rsZ-GMvi_ZTrFsJCHfpwA";
+             WebRequest objWebRequest = WebRequest.Create(requestString);
+             WebResponse objWebResponse = objWebRequest.GetResponse();
+             Stream objWebStream = objWebResponse.GetResponseStream();
+             using (StreamReader objStreamReader = new StreamReader(objWebStream))
+             {
+                result = objStreamReader.ReadToEnd();
+             }
+             //jsonzgoogla j = new jsonzgoogla();
+             //string x = j.json;
+             */
+
+            jsonzgoogla JsonZGoogla = new jsonzgoogla();
+
+
+                GooglePlusPost post = JsonConvert.DeserializeObject<GooglePlusPost>(JsonZGoogla.json);
+
+
+            ViewData["rozmiar"] = post.items.Count;
+
+            for (int i = 0; i <= post.items.Count -1; i++)
             {
-               result = objStreamReader.ReadToEnd();
+                ViewData["Json" + i] = post.items[i].@object.attachments[0].content;
             }
-            //jsonzgoogla j = new jsonzgoogla();
-            //string x = j.json;
-            
-            GooglePlusPost post = JsonConvert.DeserializeObject<GooglePlusPost>(result);
-            ViewData["Json1"] = post.items[0].@object.attachments[0].content;
             return View(ViewData);
         }
         public ActionResult Twitterli()
