@@ -29,7 +29,6 @@ namespace WebApiHash.Controllers
 
         void GetToken()
         {
-            var json = "";
             try
             {
                 NameValueCollection parameters = new NameValueCollection();
