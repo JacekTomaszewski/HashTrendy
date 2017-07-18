@@ -334,3 +334,6 @@ C:\Users\Damien\Downloads\HashTrendy-master2\HashTrendy-master\webService\WebApi
 C:\Users\Damien\Downloads\HashTrendy-master2\HashTrendy-master\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Damien\Downloads\HashTrendy-master2\HashTrendy-master\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Damien\Downloads\HashTrendy-master2\HashTrendy-master\webService\WebApiHash\WebApiHash\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\gitkamil\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.addedmigrations.resources
+D:\gitkamil\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.postsource1.resources
+D:\gitkamil\WebApiHash\WebApiHash\obj\Debug\WebApiHash.Migrations.postsource2.resources

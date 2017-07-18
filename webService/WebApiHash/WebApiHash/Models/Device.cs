@@ -12,7 +12,7 @@ namespace WebApiHash.Models
         
         public int DeviceId { get; set; }
 
-        [Index("Imei", IsUnique = true)]
+        [Index("Imei", IsUnique = false)]
         [StringLength(20)]
         public string DeviceUniqueId { get; set; }
 

@@ -84,28 +84,43 @@ namespace WebApiHash.Controllers
             
                 GooglePlusPost post = JsonConvert.DeserializeObject<GooglePlusPost>(jsonZgoogla.json);
 
-
+            GooglePost googlePost = new GooglePost();
             ViewData["rozmiar"] = post.items.Count;
 
-            for (int i = 0; i <= post.items.Count -1; i++)
+            for (int i = 0; i <= post.items.Count - 1; i++)
             {
                 ViewData["Avatar" + i] = post.items[i].actor.image.url;
-                ViewData["Author" + i] = post.items[i].actor.displayName;
+                googlePost.Avatar = post.items[i].actor.image.url;
+                 ViewData["Date" + i] = post.items[i].published;
+                googlePost.Date= System.DateTime.Parse(post.items[i].published);
+            ViewData["Author" + i] = post.items[i].actor.displayName;
+                googlePost.Username = post.items[i].actor.displayName;
                 ViewData["Title" + i] = post.items[i].title;
+                googlePost.Title = post.items[i].title;
+                googlePost.DirectLinkToStatus = post.items[i].url;
                 if (!post.items[i].@object.attachments[0].content.Contains(".png"))
                 {
                     if (!post.items[i].@object.attachments[0].content.Contains(".jpg"))
                     {
                         ViewData["Content" + i] = post.items[i].@object.attachments[0].content;
+                        googlePost.ContentDescription= post.items[i].@object.attachments[0].content;
                     }
                 }
                 if (post.items[i].@object.attachments[0].image.url != null)
+                {
                     ViewData["Image" + i] = post.items[i].@object.attachments[0].image.url;
-            }
+                    googlePost.ContentImageUrl = post.items[i].@object.attachments[0].image.url;
+                }
+                db.Posts.Add(googlePost);
+                db.SaveChanges();
+           }
+
+            
             return View(ViewData);
         }
         public ActionResult Twitterli()
         {
+            TwitterPost twitterPost = new TwitterPost();
             List<TwitterStatus> listTwitterStatus = new List<TwitterStatus>();
             var service = new TwitterService("O5YRKrovfS42vADDPv8NdC4ZS", "tDrCy3YypKhnIOBm0qgCipwGjoJVf7akHV6srkHnLHJm62WvMF");
             service.AuthenticateWith("859793491941093376-kqRIYWY9bWyS10ATfqAVdwk1ZaxloEJ", "hbOXipioFNcyOUyWbGdVAXvoVquETMl57AZUTcbMh3WRv");
@@ -117,10 +132,17 @@ namespace WebApiHash.Controllers
             }
             for(int i=0; i<listTwitterStatus.Count; i++)
             { 
-            ViewData["MyList" + i +0] = listTwitterStatus[i].User.ProfileImageUrl;
-            ViewData["MyList" + i + 1] = listTwitterStatus[i].User.CreatedDate;
-            ViewData["MyList"+ i + 2] = listTwitterStatus[i].User.Name;
-            ViewData["MyList"+i+3] = listTwitterStatus[i].Text;
+            ViewData["Avatar" + i +0] = listTwitterStatus[i].User.ProfileImageUrl;
+                twitterPost.Avatar = listTwitterStatus[i].User.ProfileImageUrl;
+            ViewData["Date" + i + 1] = listTwitterStatus[i].User.CreatedDate;
+                twitterPost.Date= listTwitterStatus[i].User.CreatedDate;
+                ViewData["Username"+ i + 2] = listTwitterStatus[i].User.Name;
+                twitterPost.Username= listTwitterStatus[i].User.Name;
+                ViewData["Content"+i+3] = listTwitterStatus[i].Text;
+                twitterPost.ContentDescription= listTwitterStatus[i].Text;
+               // nie moge znalezc direct linka twitterPost.DirectLinkToStatus = listTwitterStatus[i].
+                db.Posts.Add(twitterPost);
+                db.SaveChanges();
             }
             return View(ViewData);
         }

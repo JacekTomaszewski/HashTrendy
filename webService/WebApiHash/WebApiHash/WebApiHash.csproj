@@ -18,7 +18,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44324</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -230,6 +230,18 @@
     <Compile Include="Migrations\201705071313288_AddedUniqueColumnsAndImeiMaxLength.Designer.cs">
       <DependentUpon>201705071313288_AddedUniqueColumnsAndImeiMaxLength.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707111534100_addedmigrations.cs" />
+    <Compile Include="Migrations\201707111534100_addedmigrations.Designer.cs">
+      <DependentUpon>201707111534100_addedmigrations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707151225450_postsource1.cs" />
+    <Compile Include="Migrations\201707151225450_postsource1.Designer.cs">
+      <DependentUpon>201707151225450_postsource1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707151239465_postsource2.cs" />
+    <Compile Include="Migrations\201707151239465_postsource2.Designer.cs">
+      <DependentUpon>201707151239465_postsource2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Device.cs" />
@@ -238,6 +250,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\jsonzgoogla.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -322,6 +335,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705071313288_AddedUniqueColumnsAndImeiMaxLength.resx">
       <DependentUpon>201705071313288_AddedUniqueColumnsAndImeiMaxLength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707111534100_addedmigrations.resx">
+      <DependentUpon>201707111534100_addedmigrations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707151225450_postsource1.resx">
+      <DependentUpon>201707151225450_postsource1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707151239465_postsource2.resx">
+      <DependentUpon>201707151239465_postsource2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

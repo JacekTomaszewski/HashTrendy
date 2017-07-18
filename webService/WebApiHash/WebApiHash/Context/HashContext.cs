@@ -9,6 +9,7 @@ namespace WebApiHash.Context
 {
     public class HashContext: DbContext
     {
+        public DbSet<Post> Posts { get; set; }
         public DbSet<Hashtag> Hashtags { get; set; }
         public DbSet<Device> Devices { get; set; }
     }

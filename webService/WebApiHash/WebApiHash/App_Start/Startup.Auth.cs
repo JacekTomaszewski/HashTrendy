@@ -58,10 +58,10 @@ namespace WebApiHash
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            //app.usegoogleauthentication(new googleoauth2authenticationoptions()
             //{
-            //    ClientId = "",
-            //    ClientSecret = ""
+            //    clientid = "788527557178-c93ffvckrei3drnq1gvp97auk3vd950n.apps.googleusercontent.com",
+            //    clientsecret = "SPdI0BseLM2qoTTGpcl9CYYn"
             //});
         }
     }
