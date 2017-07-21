@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Web;
+
+namespace WebApiHash.Models
+{
+    public class Post
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int PostId { get; set; }
+
+        public string HashtagName { get; set; }
+
+        public DateTime Date { get; set; }
+
+        public string Avatar { get; set; }
+
+        public string Username { get; set; }
+
+        public string ContentDescription { get; set; }
+
+        public string ContentImageUrl { get; set; }
+
+        public string DirectLinkToStatus { get; set; }
+    }
+
+    public class GooglePost : Post
+    {
+        public string PostSource = "GooglePlus";
+    }
+    public class TwitterPost : Post
+    {
+        public string PostSource = "Twitter";
+    }
+}
