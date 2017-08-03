@@ -160,6 +160,7 @@ namespace WebApiHash.Controllers
                     //POMOCY Z FOREIGN KEY !!!
                 }
                 // nie moge znalezc direct linka twitterPost.DirectLinkToStatus = listTwitterStatus[i].
+               // twitterPost.DirectLinkToStatus=listTwitterStatus[i].Entities.Urls.Value;
                 db.Posts.Add(twitterPost);
                 db.SaveChanges();
             }
@@ -208,7 +209,6 @@ namespace WebApiHash.Controllers
             return View(TempData);
 
         }
-
 
 
         public ActionResult Create(String imei)
