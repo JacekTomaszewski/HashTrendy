@@ -430,3 +430,5 @@ D:\webio\wwwroot\obj\Debug\WebApiHash.Migrations.nowamigracja3.resources
 D:\webio\wwwroot\obj\Debug\WebApiHash.Migrations.nowamigracja4.resources
 D:\webio\wwwroot\obj\Debug\WebApiHash.Migrations.nowamigracja5.resources
 D:\webio\wwwroot\obj\Debug\WebApiHash.Migrations.migr1.resources
+D:\webio\wwwroot\obj\Debug\WebApiHash.Migrations.abc.resources
+D:\webio\wwwroot\obj\Debug\WebApiHash.Migrations.elo.resources

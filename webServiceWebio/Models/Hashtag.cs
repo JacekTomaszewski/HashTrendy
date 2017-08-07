@@ -18,5 +18,6 @@ namespace WebApiHash.Models
         [Index("IX_HashAndDevice", 2, IsUnique = true)]
         [StringLength(450)]
         public virtual ICollection<Device> Devices { get; set; }
+        public virtual ICollection<Post> Posts { get; set; }
     }
 }

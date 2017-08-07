@@ -129,13 +129,13 @@ namespace WebApiHash.Controllers
         public ActionResult Twitterli(string hashtagname)
         {
             //localhost:50707/hash/twitterli?hashtagname=%23nazwahashtaga
-            Hashtag hashtag = new Hashtag();
+            Hashtag hashtag = new Hashtag() { Posts = new List<Post>() };
             IEnumerable<string> tags;
-            TwitterPost twitterPost = new TwitterPost();
+            TwitterPost twitterPost = new TwitterPost() {Hashtags = new List<Hashtag>() };
             List<TwitterStatus> listTwitterStatus = new List<TwitterStatus>();
             var service = new TwitterService("O5YRKrovfS42vADDPv8NdC4ZS", "tDrCy3YypKhnIOBm0qgCipwGjoJVf7akHV6srkHnLHJm62WvMF");
             service.AuthenticateWith("859793491941093376-kqRIYWY9bWyS10ATfqAVdwk1ZaxloEJ", "hbOXipioFNcyOUyWbGdVAXvoVquETMl57AZUTcbMh3WRv");
-            var twitterSearchResult = service.Search(new SearchOptions { Q = hashtagname, Count = 5, Resulttype = TwitterSearchResultType.Recent });
+            var twitterSearchResult = service.Search(new SearchOptions { Q = hashtagname, Count = 100, Resulttype = TwitterSearchResultType.Recent });
             if (twitterSearchResult != null)
 
             {
@@ -143,7 +143,7 @@ namespace WebApiHash.Controllers
             }
             for(int i=0; i<listTwitterStatus.Count; i++)
             {
-            ViewData["Avatar" + i +0] = listTwitterStatus[i].User.ProfileImageUrl;
+                ViewData["Avatar" + i +0] = listTwitterStatus[i].User.ProfileImageUrl;
                 twitterPost.Avatar = listTwitterStatus[i].User.ProfileImageUrl;
                 ViewData["Date" + i + 1] = listTwitterStatus[i].User.CreatedDate;
                 twitterPost.Date= listTwitterStatus[i].User.CreatedDate;
@@ -154,15 +154,26 @@ namespace WebApiHash.Controllers
                 tags = Regex.Split(listTwitterStatus[i].Text, @"\s+").Where(b => b.StartsWith("#"));
                 for (int x = 0; x < tags.Count(); x++)
                 {
-                    hashtag.HashtagName = tags.ElementAt(x);
-                    db.Hashtags.Add(hashtag);
-                    db.SaveChanges();
-                    //POMOCY Z FOREIGN KEY !!!
+                    string selectedNameOfElement = tags.ElementAt(x);
+                    var querySearchForHashtag = (from p in db.Hashtags where p.HashtagName == selectedNameOfElement select p);
+                    if (querySearchForHashtag.Count() == 0)
+                    {
+                        hashtag.HashtagName = selectedNameOfElement;
+                        hashtag.Posts.Add(twitterPost);
+                        db.Hashtags.Add(hashtag);
+                        db.SaveChanges();
+                    }
+                    else
+                        twitterPost.Hashtags.Add(querySearchForHashtag.FirstOrDefault());
                 }
                 // nie moge znalezc direct linka twitterPost.DirectLinkToStatus = listTwitterStatus[i].
-               // twitterPost.DirectLinkToStatus=listTwitterStatus[i].Entities.Urls.Value;
-                db.Posts.Add(twitterPost);
-                db.SaveChanges();
+                // twitterPost.DirectLinkToStatus=listTwitterStatus[i].Entities.Urls.Value;  
+                if (i < listTwitterStatus.Count) 
+                {
+                    db.Posts.Add(twitterPost);
+                    db.SaveChanges();
+                }     
+                
             }
            
 
@@ -181,6 +192,38 @@ namespace WebApiHash.Controllers
             Uri uri = service.GetAuthenticationUrl(requestToken);
 
             return Redirect(uri.ToString());
+        }
+        public ActionResult TwitterExample(string hashtagname)
+        {
+            //localhost:50707/hash/twitterli?hashtagname=%23nazwahashtaga
+            Hashtag hashtag = new Hashtag() { Posts = new List<Post>() };
+            IEnumerable<string> tags;
+            TwitterPost twitterPost = new TwitterPost() { Hashtags = new List<Hashtag>() };
+            List<TwitterStatus> listTwitterStatus = new List<TwitterStatus>();
+            var service = new TwitterService("O5YRKrovfS42vADDPv8NdC4ZS", "tDrCy3YypKhnIOBm0qgCipwGjoJVf7akHV6srkHnLHJm62WvMF");
+            service.AuthenticateWith("859793491941093376-kqRIYWY9bWyS10ATfqAVdwk1ZaxloEJ", "hbOXipioFNcyOUyWbGdVAXvoVquETMl57AZUTcbMh3WRv");
+            var twitterSearchResult = service.Search(new SearchOptions { Q = hashtagname, Count = 5, Resulttype = TwitterSearchResultType.Recent });
+            if (twitterSearchResult != null)
+
+            {
+                listTwitterStatus = ((List<TwitterStatus>)twitterSearchResult.Statuses);
+            }
+            for (int i = 0; i < listTwitterStatus.Count; i++)
+            {
+                ViewData["Content" + i + 3] = listTwitterStatus[i].Text;
+                tags = Regex.Split(listTwitterStatus[i].Text, @"\s+").Where(b => b.StartsWith("#"));
+                for (int x = 0; x < tags.Count(); x++)
+                {
+                    string selectedNameOfElement = tags.ElementAt(x);
+                    var querySearchForHashtag = (from p in db.Hashtags where p.HashtagName == selectedNameOfElement select p);
+                    foreach (var item in querySearchForHashtag)
+                    { ViewData["Content" + x + 3] = item.HashtagName; }
+                }
+
+            }
+
+
+            return View(ViewData);
         }
 
         public ActionResult TwitterCallback(string oauth_token, string oauth_verifier)

@@ -13,8 +13,6 @@ namespace WebApiHash.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int PostId { get; set; }
 
-        public string HashtagName { get; set; }
-
         public DateTime Date { get; set; }
 
         public string Avatar { get; set; }
@@ -26,6 +24,8 @@ namespace WebApiHash.Models
         public string ContentImageUrl { get; set; }
 
         public string DirectLinkToStatus { get; set; }
+
+        public virtual ICollection<Hashtag> Hashtags { get; set; }
     }
 
     public class GooglePost : Post
