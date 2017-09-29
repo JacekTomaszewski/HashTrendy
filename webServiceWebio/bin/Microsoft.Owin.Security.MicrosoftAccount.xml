@@ -84,6 +84,24 @@
             The application client secret assigned by the Microsoft authentication service.
             </summary>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="P:Microsoft.Owin.Security.MicrosoftAccount.MicrosoftAccountAuthenticationOptions.AuthorizationEndpoint">
+            <summary>
+            Gets or sets the URI where the client will be redirected to authenticate.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Owin.Security.MicrosoftAccount.MicrosoftAccountAuthenticationOptions.TokenEndpoint">
+            <summary>
+            Gets or sets the URI the middleware will access to exchange the OAuth token.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Owin.Security.MicrosoftAccount.MicrosoftAccountAuthenticationOptions.UserInformationEndpoint">
+            <summary>
+            Gets or sets the URI the middleware will access to obtain the user information.
+            </summary>
+        </member>
+>>>>>>> KamilBranch
         <member name="P:Microsoft.Owin.Security.MicrosoftAccount.MicrosoftAccountAuthenticationOptions.BackchannelTimeout">
             <summary>
             Gets or sets timeout value in milliseconds for back channel communications with Microsoft.
@@ -126,6 +144,14 @@
             Gets or sets the type used to secure data handled by the middleware.
             </summary>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="P:Microsoft.Owin.Security.MicrosoftAccount.MicrosoftAccountAuthenticationOptions.CookieManager">
+            <summary>
+            An abstraction for reading and setting cookies during the authentication process.
+            </summary>
+        </member>
+>>>>>>> KamilBranch
         <member name="T:Microsoft.Owin.Security.MicrosoftAccount.IMicrosoftAccountAuthenticationProvider">
             <summary>
             Specifies callback methods which the <see cref="T:Microsoft.Owin.Security.MicrosoftAccount.MicrosoftAccountAuthenticationMiddleware"></see> invokes to enable developer control over the authentication process. /&gt;
@@ -173,17 +199,24 @@
         </member>
         <member name="P:Microsoft.Owin.Security.MicrosoftAccount.MicrosoftAccountAuthenticatedContext.AccessToken">
             <summary>
+<<<<<<< HEAD
             Gets the access token provided by the Microsoft authenication service
+=======
+            Gets the access token provided by the Microsoft authentication service
+>>>>>>> KamilBranch
             </summary>
         </member>
         <member name="P:Microsoft.Owin.Security.MicrosoftAccount.MicrosoftAccountAuthenticatedContext.RefreshToken">
             <summary>
             Gets the refresh token provided by Microsoft authentication service
             </summary>
+<<<<<<< HEAD
             <remarks>
             Refresh token is only available when wl.offline_access is request.
             Otherwise, it is null.
             </remarks>
+=======
+>>>>>>> KamilBranch
         </member>
         <member name="P:Microsoft.Owin.Security.MicrosoftAccount.MicrosoftAccountAuthenticatedContext.ExpiresIn">
             <summary>

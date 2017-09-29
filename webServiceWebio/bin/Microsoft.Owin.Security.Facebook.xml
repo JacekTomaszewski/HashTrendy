@@ -68,19 +68,28 @@
         <member name="P:Microsoft.Owin.Security.Facebook.FacebookAuthenticationOptions.AuthorizationEndpoint">
             <summary>
             Gets or sets the URI where the client will be redirected to authenticate.
+<<<<<<< HEAD
             The default value is 'https://www.facebook.com/dialog/oauth'.
+=======
+>>>>>>> KamilBranch
             </summary>
         </member>
         <member name="P:Microsoft.Owin.Security.Facebook.FacebookAuthenticationOptions.TokenEndpoint">
             <summary>
             Gets or sets the URI the middleware will access to exchange the OAuth token.
+<<<<<<< HEAD
             The default value is 'https://graph.facebook.com/oauth/access_token'.
+=======
+>>>>>>> KamilBranch
             </summary>
         </member>
         <member name="P:Microsoft.Owin.Security.Facebook.FacebookAuthenticationOptions.UserInformationEndpoint">
             <summary>
             Gets or sets the URI the middleware will access to obtain the user information.
+<<<<<<< HEAD
             The default value is 'https://graph.facebook.com/me'.
+=======
+>>>>>>> KamilBranch
             </summary>
         </member>
         <member name="P:Microsoft.Owin.Security.Facebook.FacebookAuthenticationOptions.BackchannelCertificateValidator">
@@ -147,6 +156,20 @@
             This is enabled by default.
             </summary>
         </member>
+<<<<<<< HEAD
+=======
+        <member name="P:Microsoft.Owin.Security.Facebook.FacebookAuthenticationOptions.Fields">
+            <summary>
+            The list of fields to retrieve from the UserInformationEndpoint.
+            https://developers.facebook.com/docs/graph-api/reference/user
+            </summary>
+        </member>
+        <member name="P:Microsoft.Owin.Security.Facebook.FacebookAuthenticationOptions.CookieManager">
+            <summary>
+            An abstraction for reading and setting cookies during the authentication process.
+            </summary>
+        </member>
+>>>>>>> KamilBranch
         <member name="T:Microsoft.Owin.Security.Facebook.FacebookApplyRedirectContext">
             <summary>
             Context passed when a Challenge causes a redirect to authorize endpoint in the Facebook middleware

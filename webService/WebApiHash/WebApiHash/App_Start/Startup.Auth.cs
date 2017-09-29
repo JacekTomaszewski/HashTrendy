@@ -34,7 +34,7 @@ namespace WebApiHash
                         validateInterval: TimeSpan.FromMinutes(30),
                         regenerateIdentity: (manager, user) => user.GenerateUserIdentityAsync(manager))
                 }
-            });            
+            });
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
             // Enables the application to temporarily store user information when they are verifying the second factor in the two-factor authentication process.
@@ -58,11 +58,19 @@ namespace WebApiHash
             //   appId: "",
             //   appSecret: "");
 
+<<<<<<< HEAD
             //app.usegoogleauthentication(new googleoauth2authenticationoptions()
             //{
             //    clientid = "788527557178-c93ffvckrei3drnq1gvp97auk3vd950n.apps.googleusercontent.com",
             //    clientsecret = "SPdI0BseLM2qoTTGpcl9CYYn"
             //});
+=======
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "634452296276-h737va4i6l1ledh1cr2qkpvvkdgg84e8.apps.googleusercontent.com",
+                ClientSecret = "euyDUdQHBWFRQYj4FLrCGWea"
+            });
+>>>>>>> KamilBranch
         }
     }
 }

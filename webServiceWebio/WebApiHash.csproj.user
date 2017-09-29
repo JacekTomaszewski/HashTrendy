@@ -11,6 +11,14 @@
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
     <WebStackScaffolding_DbContextTypeFullName>WebApiHash.Context.HashContext</WebStackScaffolding_DbContextTypeFullName>
     <IISExpressSSLPort>44324</IISExpressSSLPort>
+<<<<<<< HEAD
+=======
+    <Use64BitIISExpress />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+>>>>>>> KamilBranch
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
